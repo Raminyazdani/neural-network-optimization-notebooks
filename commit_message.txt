@@ -1,0 +1,5 @@
+Ramin Yazdani | neural-network-optimization-notebooks | main | feat(init): Initial repository setup
+
+Created initial project structure with README, .gitignore, and basic documentation.
+Set up repository for machine learning optimization notebooks project.
+Established foundation for PCA and polynomial regression implementations.
