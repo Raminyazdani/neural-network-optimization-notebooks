@@ -1,5 +1,5 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | feat(init): Initial repository setup
+Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(deps): Add basic dependencies to requirements.txt
 
-Created initial project structure with README, .gitignore, and basic documentation.
-Set up repository for machine learning optimization notebooks project.
-Established foundation for PCA and polynomial regression implementations.
+Added core dependencies: torch, numpy, matplotlib.
+These are the foundation libraries needed for machine learning implementations.
+More dependencies will be added as needed.
