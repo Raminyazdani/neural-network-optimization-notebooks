@@ -1,5 +1,5 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(deps): Add basic dependencies to requirements.txt
+Ramin Yazdani | neural-network-optimization-notebooks | main | feat(deps): Add jupyter to requirements
 
-Added core dependencies: torch, numpy, matplotlib.
-These are the foundation libraries needed for machine learning implementations.
-More dependencies will be added as needed.
+Added jupyter to requirements.txt to complete development environment setup.
+Now all necessary dependencies for running notebooks are specified.
+Project is ready for notebook development to begin.
