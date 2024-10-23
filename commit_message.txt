@@ -1,5 +1,5 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | feat(deps): Add jupyter to requirements
+Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(pca): Create PCA notebook with initial structure
 
-Added jupyter to requirements.txt to complete development environment setup.
-Now all necessary dependencies for running notebooks are specified.
-Project is ready for notebook development to begin.
+Created new Jupyter notebook for PCA work with initial structure and imports.
+Added section headers and markdown documentation for planned implementation.
+Set up framework for eigendecomposition, reconstruction, and denoising.
