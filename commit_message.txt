@@ -1,5 +1,5 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(pca): Start eigendecomposition implementation
+Ramin Yazdani | neural-network-optimization-notebooks | main | feat(pca): Complete eigendecomposition with cumulative variance
 
-Began implementing eigen_decomp() function for PCA.
-Added code to compute covariance matrix and basic eigenvalue computation.
-Implementation is partial and needs completion in next commit.
+Completed eigendecomposition implementation with full functionality.
+Added cumulative variance calculation and proper sorting of eigenvalues.
+Tested function to ensure correct mathematical behavior.
