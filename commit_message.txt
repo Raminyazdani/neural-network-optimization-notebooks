@@ -1,5 +1,6 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | feat(pca): Complete eigendecomposition with cumulative variance
+Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(data): Add MNIST data loading (incorrect import)
 
-Completed eigendecomposition implementation with full functionality.
-Added cumulative variance calculation and proper sorting of eigenvalues.
-Tested function to ensure correct mathematical behavior.
+Attempted to add MNIST data loading functionality.
+BUG: Used incorrect import 'from torch.datasets import MNIST'.
+This will cause AttributeError since torch doesn't have datasets module.
+Correct import should be from torchvision.datasets.
