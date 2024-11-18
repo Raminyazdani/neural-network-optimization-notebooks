@@ -1,6 +1,5 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(data): Add MNIST data loading (incorrect import)
+Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(data): Try fixing MNIST import (still broken)
 
-Attempted to add MNIST data loading functionality.
-BUG: Used incorrect import 'from torch.datasets import MNIST'.
-This will cause AttributeError since torch doesn't have datasets module.
-Correct import should be from torchvision.datasets.
+Attempted to fix import by adding torchvision to imports but kept old import.
+Still has the bug: torch.datasets doesn't exist.
+Need to actually change the import statement to use torchvision.datasets.
