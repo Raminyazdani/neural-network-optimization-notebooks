@@ -1,5 +1,5 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | feat(data): Fix MNIST import and complete data loading
+Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(pca): Start PCA reconstruction function
 
-FIXED: Changed import to 'from torchvision.datasets import MNIST'.
-Successfully implemented MNIST data loading functionality.
-Verified import works correctly and data loads as expected.
+Began implementing pca_reconstruct() function.
+Added framework for projecting data onto principal components.
+Partial implementation needs completion for full reconstruction.
