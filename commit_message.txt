@@ -1,5 +1,5 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(pca): Start PCA reconstruction function
+Ramin Yazdani | neural-network-optimization-notebooks | main | feat(pca): Complete PCA reconstruction function
 
-Began implementing pca_reconstruct() function.
-Added framework for projecting data onto principal components.
-Partial implementation needs completion for full reconstruction.
+Completed pca_reconstruct() function with full projection and reconstruction.
+Added support for specifying number of components to use.
+Tested reconstruction quality with different component counts.
