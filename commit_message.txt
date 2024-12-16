@@ -1,5 +1,5 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | feat(pca): Complete PCA reconstruction function
+Ramin Yazdani | neural-network-optimization-notebooks | main | feat(viz): Add matplotlib configuration and plotting setup
 
-Completed pca_reconstruct() function with full projection and reconstruction.
-Added support for specifying number of components to use.
-Tested reconstruction quality with different component counts.
+Set up matplotlib configuration for consistent visualizations.
+Configured figure sizes, plot styling, and color schemes.
+Prepared infrastructure for variance and reconstruction plots.
