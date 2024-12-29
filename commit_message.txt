@@ -1,5 +1,5 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | feat(viz): Add matplotlib configuration and plotting setup
+Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(pca): Add variance explained computation
 
-Set up matplotlib configuration for consistent visualizations.
-Configured figure sizes, plot styling, and color schemes.
-Prepared infrastructure for variance and reconstruction plots.
+Implemented computation of explained variance ratios.
+Added code to calculate how much variance each component explains.
+Prepared data for visualization in next step.
