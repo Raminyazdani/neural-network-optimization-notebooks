@@ -1,5 +1,5 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(pca): Add variance explained computation
+Ramin Yazdani | neural-network-optimization-notebooks | main | feat(viz): Add variance visualization plots
 
-Implemented computation of explained variance ratios.
-Added code to calculate how much variance each component explains.
-Prepared data for visualization in next step.
+Created plots showing eigenvalue distribution and cumulative variance.
+Visualizations help determine optimal number of components.
+Added analysis of variance capture for different component counts.
