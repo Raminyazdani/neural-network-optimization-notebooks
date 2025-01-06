@@ -1,5 +1,5 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | feat(pca): Implement noisy data generation functions
+Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(pca): Start image denoising implementation
 
-Added functions to generate noisy versions of MNIST images.
-Implemented Gaussian noise addition with configurable intensity.
-Created comparison visualizations showing clean vs noisy images.
+Began implementing PCA-based image denoising.
+Added framework for reconstructing images from principal components.
+Partial implementation to be completed in next commit.
