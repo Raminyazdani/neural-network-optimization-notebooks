@@ -1,5 +1,6 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(pca): Start image denoising implementation
+Ramin Yazdani | neural-network-optimization-notebooks | main | feat(pca): Complete denoising with before/after comparisons
 
-Began implementing PCA-based image denoising.
-Added framework for reconstructing images from principal components.
-Partial implementation to be completed in next commit.
+Completed PCA-based image denoising implementation.
+Added before/after comparison visualizations.
+Analyzed reconstruction error and denoising quality.
+First notebook (PCA) is now complete.
