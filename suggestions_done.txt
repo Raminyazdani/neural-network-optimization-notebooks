@@ -1,0 +1,25 @@
+FILE	LOCATOR	BEFORE_SNIPPET	AFTER_SNIPPET	NOTES
+FILELOCATORBEFORE_SNIPPETAFTER_SNIPPETNOTES
+README.md line 1# Neural Network Optimization Techniques# ML Optimization Techniques: PCA & Polynomial RegressionUpdated title to match project_identity.md and actual content
+README.md line 3**Advanced optimization methods and training strategies****Practical implementations of PCA-based dimensionality reduction, image denoising, and polynomial regression with regularization.**Updated tagline to match project_identity.md
+README.md line 5**Stack:** Python, PyTorch, Jupyter Notebook**Stack:** Python, PyTorch, scikit-learn, Jupyter NotebookAdded scikit-learn to stack
+README.md line 32Submission_4_-_7072982_Syed_Rumman_Ali/ml-optimization-notebooks/Removed academic submission folder reference
+README.md line 57cd Submission_4_-_7072982_Syed_Rumman_Alicd neural-network-optimization-notebooksUpdated directory reference to repo name
+README.md lines 33-35├── NNTI_Assignment3_(Q3_4).ipynb\n├── NNTI_Assignment3_Bonus.ipynb ├── pca_image_denoising.ipynb\n├── polynomial_regression.ipynbUpdated to professional filenames (pre-rename)
+README.md entire fileGeneric optimization descriptionDetailed PCA and polynomial regression descriptionCompletely rewrote to accurately describe actual content
+requirements.txt line 5(missing)scikit-learn>=1.0.0Added scikit-learn dependency for polynomial regression notebook
+(new)data/.gitkeep(none)(empty file)Created data/ directory for polynomial regression input files
+NNTI_Assignment3_(Q3_4).ipynbcell[0] (markdown)# NNTI Assignment 3\n\nName 1: Gopal Mengi <br>\nStudent id 1: 7071538...# PCA-Based Image Denoising on MNIST\n\nThis notebook demonstrates Principal Component Analysis...Replaced student header with professional introduction
+NNTI_Assignment3_(Q3_4).ipynbcell[4] (markdown)### a. Eigendecomposition [1 point]### a. EigendecompositionRemoved point allocation
+NNTI_Assignment3_(Q3_4).ipynbcell[7] (markdown)### Answer the below question: [0.25 points]### AnalysisRemoved point allocation and reworded
+NNTI_Assignment3_(Q3_4).ipynbcell[9] (markdown)### b. PCA [1 point]### b. PCARemoved point allocation
+NNTI_Assignment3_(Q3_4).ipynbcell[12] (markdown)### c. Noisy Data Generation [1.5 points]### c. Noisy Data GenerationRemoved point allocation
+NNTI_Assignment3_(Q3_4).ipynbcell[14] (markdown)### Answer the below question: [0.25 points]### AnalysisRemoved point allocation and reworded
+NNTI_Assignment3_(Q3_4).ipynbcell[16] (markdown)### d. Image Denoising [1 point]### d. Image DenoisingRemoved point allocation
+NNTI_Assignment3_(Q3_4).ipynbfilenameNNTI_Assignment3_(Q3_4).ipynbpca_image_denoising.ipynbRenamed to professional descriptive name
+NNTI_Assignment3_Bonus.ipynbcell[0] (markdown)# NNTI Assignment 3\n\nName 1: <br>\nStudent id 1: Gopal Mengi...# Polynomial Regression with Regularization\n\nThis notebook demonstrates polynomial regression...Replaced student header with professional introduction
+NNTI_Assignment3_Bonus.ipynbcell[2] (code)from google.colab import drive\ndrive.mount('/content/drive')# Data files should be placed in the data/ directory\n# Expected files: data/X.npy and data/y.npyRemoved Google Colab mount code, added data instructions
+NNTI_Assignment3_Bonus.ipynbcell[5] (code)X = np.load('/content/drive/MyDrive/University of Saarland/NNTI/NNTI_Assignment_3/Bonus_(Q3.5)/X.npy')X = np.load('data/X.npy')Replaced absolute Colab path with relative path
+NNTI_Assignment3_Bonus.ipynbcell[5] (code)y = np.load('/content/drive/MyDrive/University of Saarland/NNTI/NNTI_Assignment_3/Bonus_(Q3.5)/y.npy')y = np.load('data/y.npy')Replaced absolute Colab path with relative path
+NNTI_Assignment3_Bonus.ipynbcell[6] (markdown)### b. Regression Models: [0.5+1+0.5 points]### b. Regression Models:Removed point allocation
+NNTI_Assignment3_Bonus.ipynbfilenameNNTI_Assignment3_Bonus.ipynbpolynomial_regression.ipynbRenamed to professional descriptive name

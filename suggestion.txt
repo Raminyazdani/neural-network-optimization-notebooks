@@ -1,0 +1,17 @@
+TYPE	FILE	LOCATOR	BEFORE_SNIPPET	PROPOSED_CHANGE	RATIONALE	STATUS
+TRACE	README.md	line 32	Submission_4_-_7072982_Syed_Rumman_Ali/	Remove submission folder reference	Academic submission naming pattern	APPLIED
+TRACE	README.md	line 57	cd Submission_4_-_7072982_Syed_Rumman_Ali	Remove submission folder reference	Academic submission naming pattern	APPLIED
+TRACE	NNTI_Assignment3_(Q3_4).ipynb	cell[0] (markdown)	Student id 1: 7071538...	Remove student identification header	Contains student names, IDs, and emails - academic trace	APPLIED
+TRACE	NNTI_Assignment3_(Q3_4).ipynb	cell[4] (markdown)	### a. Eigendecomposition [1 point]   i.   Complete the func	Remove point allocation from header	Assignment scoring notation - academic trace	APPLIED
+TRACE	NNTI_Assignment3_(Q3_4).ipynb	cell[7] (markdown)	### Answer the below question: [0.25 points]  Q: What do you	Remove point allocation from header	Assignment scoring notation - academic trace	APPLIED
+TRACE	NNTI_Assignment3_(Q3_4).ipynb	cell[9] (markdown)	### b. PCA [1 point]  Complete the function `pca_reconstruct	Remove point allocation from header	Assignment scoring notation - academic trace	APPLIED
+TRACE	NNTI_Assignment3_(Q3_4).ipynb	cell[12] (markdown)	### c. Noisy Data Generation [1.5 points]  i.   Complete the	Remove point allocation from header	Assignment scoring notation - academic trace	APPLIED
+TRACE	NNTI_Assignment3_(Q3_4).ipynb	cell[14] (markdown)	### Answer the below question: [0.25 points]  Q: How do the 	Remove point allocation from header	Assignment scoring notation - academic trace	APPLIED
+TRACE	NNTI_Assignment3_(Q3_4).ipynb	cell[16] (markdown)	### d. Image Denoising [1 point]    i.   Complete the functi	Remove point allocation from header	Assignment scoring notation - academic trace	APPLIED
+RENAME	NNTI_Assignment3_(Q3_4).ipynb	filename	NNTI_Assignment3_(Q3_4).ipynb	pca_image_denoising.ipynb	Remove academic course code and assignment reference, use professional descriptive name	APPLIED
+TRACE	NNTI_Assignment3_Bonus.ipynb	cell[0] (markdown)	Student id 1: Gopal Mengi...	Remove student identification header	Contains student names and IDs - academic trace	APPLIED
+PATH	NNTI_Assignment3_Bonus.ipynb	cell[2] (code)	from google.colab import drive drive.mount('/content/drive')	Replace with relative path: data/X.npy and data/y.npy	Hardcoded Google Colab absolute path - not portable	APPLIED
+PATH	NNTI_Assignment3_Bonus.ipynb	cell[5] (code)	import numpy as np import matplotlib.pyplot as plt  # Load the data from .npy fi	Replace with relative path: data/X.npy and data/y.npy	Hardcoded Google Colab absolute path - not portable	APPLIED
+PATH	NNTI_Assignment3_Bonus.ipynb	cell[5] (code)	import numpy as np import matplotlib.pyplot as plt  # Load the data from .npy fi	Replace with relative path	Contains university name in path - academic trace + brittle path	APPLIED
+TRACE	NNTI_Assignment3_Bonus.ipynb	cell[2] (code)	from google.colab import drive	Remove Google Colab-specific code	Platform-specific code that makes notebook less portable	APPLIED
+RENAME	NNTI_Assignment3_Bonus.ipynb	filename	NNTI_Assignment3_Bonus.ipynb	polynomial_regression.ipynb	Remove academic course code, assignment, and bonus reference, use professional descriptive name	APPLIED
