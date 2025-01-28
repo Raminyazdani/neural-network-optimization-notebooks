@@ -1,5 +1,5 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(regression): Create polynomial regression notebook structure
+Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(regression): Add synthetic data generation code
 
-Created new notebook for polynomial regression with initial structure.
-Added section headers and imports for regression implementation.
-Updated README to mention second notebook.
+Added code to generate or load synthetic regression dataset.
+Prepared X and y data for regression experiments.
+Set up framework for model training.
