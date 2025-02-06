@@ -1,5 +1,5 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(regression): Add synthetic data generation code
+Ramin Yazdani | neural-network-optimization-notebooks | main | feat(regression): Implement linear regression baseline
 
-Added code to generate or load synthetic regression dataset.
-Prepared X and y data for regression experiments.
-Set up framework for model training.
+Implemented simple linear regression model as baseline.
+Added training code and RMSE metric computation.
+Established baseline performance for comparison with polynomial models.
