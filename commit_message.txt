@@ -1,5 +1,6 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | feat(regression): Implement linear regression baseline
+Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(data): Add data loading (hardcoded Colab path)
 
-Implemented simple linear regression model as baseline.
-Added training code and RMSE metric computation.
-Established baseline performance for comparison with polynomial models.
+Attempted to add data loading for polynomial regression.
+BUG: Used absolute Google Colab path that doesn't exist outside Colab.
+Path: /content/drive/MyDrive/University of Saarland/NNTI/...
+This will cause FileNotFoundError on local systems.
