@@ -1,5 +1,5 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | feat(data): Fix data paths to use relative paths
+Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(regression): Add regularization code (missing sklearn)
 
-FIXED: Changed from absolute Colab paths to relative paths.
-Now uses data/X.npy and data/y.npy instead of hardcoded paths.
-Created data/ directory structure and added setup instructions to README.
+Attempted to add Ridge and Lasso regularization using sklearn.
+BUG: scikit-learn not in requirements.txt causes import error.
+Error: ModuleNotFoundError: No module named 'sklearn'.
