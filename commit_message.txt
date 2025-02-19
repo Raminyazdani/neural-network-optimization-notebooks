@@ -1,5 +1,5 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(regression): Add regularization code (missing sklearn)
+Ramin Yazdani | neural-network-optimization-notebooks | main | WIP(deps): Add sklearn to requirements (forgot to install)
 
-Attempted to add Ridge and Lasso regularization using sklearn.
-BUG: scikit-learn not in requirements.txt causes import error.
-Error: ModuleNotFoundError: No module named 'sklearn'.
+Added scikit-learn>=1.0.0 to requirements.txt file.
+BUG: Forgot to actually run pip install after updating requirements.
+Still getting import error because package not installed in environment.
