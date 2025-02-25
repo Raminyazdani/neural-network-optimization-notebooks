@@ -1,5 +1,6 @@
-Ramin Yazdani | neural-network-optimization-notebooks | main | feat(regression): Install sklearn and implement Ridge regression
+Ramin Yazdani | neural-network-optimization-notebooks | main | feat(regression): Add Lasso regression and final comparisons
 
-FIXED: Installed scikit-learn and implemented Ridge regression.
-Added Ridge regularization with cross-validation.
-Computed RMSE metrics showing improvement over baseline.
+Added Lasso regularization for L1 penalty comparison.
+Created comprehensive model comparison visualizations.
+Completed polynomial regression notebook with all regularization methods.
+Both notebooks now complete with professional documentation.
